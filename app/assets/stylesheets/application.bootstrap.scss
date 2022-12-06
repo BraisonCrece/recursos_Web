@@ -1,5 +1,6 @@
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-icons/font/bootstrap-icons';
+@import "rouge";
 
 
 body {
@@ -30,6 +31,7 @@ body {
   }
 
   .card {
+
 
     height: 36em;
 
@@ -70,4 +72,12 @@ body {
     }
 
   }
+
+  .tarjeta_yt {
+    background-color: #25292c;
+    font-family: 'Source Code Pro', monospace;
+    color: #fff;
+  }
+
+
 }

@@ -1,0 +1,11 @@
+<p style="color: green"><%= notice %></p>
+<h1>Markdown codes</h1>
+<div id="markdown_codes">
+  <% @markdown_codes.each do |markdown_code| %>
+    <%= render markdown_code %>
+    <p>
+      <%= link_to "Show this markdown code", markdown_code %>
+    </p>
+  <% end %>
+</div>
+<%= link_to "New markdown code", new_markdown_code_path %>

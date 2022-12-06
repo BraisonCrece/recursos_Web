@@ -5,23 +5,23 @@
   <!-- galería de tarjetas con las opciones -->
   <div class="row">
     <div class="col-md-4">
-      <%= link_to pages_cheatsheets_path do %>
+      <%= link_to pages_ror_path do %>
         <div class="card mb-3">
           <div class="card_img">
-            <%= image_tag "cheat-sheet.png" %>
+            <%= image_tag "RoR.svg" %>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Cheat-Sheets</h5>
+            <h5 class="card-title">Ruby on Rails</h5>
             <p class="card-text">
-              Recopilación de cheat-sheets de diferentes lenguajes de programación. Ideal para tener a mano en el escritorio.
-              Opcion descargable en PDF y MarkDown.
+              Recopilación de recursos ,documentación y canales de youtube para aprender Ruby on Rails. 
+              Además de toda la documentación oficial se Ruby y Rails!
             </p>
           </div>
         </div>
       <% end %>
     </div>
     <div class="col-md-4">
-      <%= link_to pages_cheatsheets_path do %>
+      <%= link_to pages_html_css_path do %>
         <div class="card mb-3">
           <div class="card_img">
             <%= image_tag "html_css_2.svg" %>
@@ -47,6 +47,22 @@
             <p class="card-text">
               Recopilación de recursos y documentación para aprender JavaScript. 
               Con ejemplos prácticos y ejercicios.
+            </p>
+          </div>
+        </div>
+      <% end %>
+    </div>
+    <div class="col-md-4">
+      <%= link_to pages_cheatsheets_path do %>
+        <div class="card mb-3">
+          <div class="card_img">
+            <%= image_tag "cheat-sheet.png" %>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Cheat-Sheets</h5>
+            <p class="card-text">
+              Recopilación de cheat-sheets de diferentes lenguajes de programación. Ideal para tener a mano en el escritorio.
+              Opcion descargable en PDF y MarkDown.
             </p>
           </div>
         </div>

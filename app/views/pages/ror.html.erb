@@ -1,0 +1,182 @@
+<%# 
+  - Ruby on Rails guides: https://guides.rubyonrails.org/ 
+  - Ruby on Rails api: https://api.rubyonrails.org/
+  - API Ruby: https://rubyapi.org/
+  - Rail HTTP Status Codes: http://www.railsstatuscodes.com/ 
+
+%>
+<%# make one card with the info of each links %>
+<h2>Documentación Oficial</h2>
+<ul class="lista_links_ROR mt-5 mb-5">
+  <li class="d-flex">
+    <%= link_to "https://guides.rubyonrails.org/", target: "_blank" do %>
+      <%= image_tag  "RoR.svg", size: "75x75", class: "me-2"%>
+    <%end%>
+    <div>
+      <%= link_to "Ruby on Rails guides", "https://guides.rubyonrails.org/", target: "_blank" %>
+      <p>
+        Rails Guides es un must para cualquier desarrollador que trabaje con Ruby on Rails.
+        En este sitio encontrarás una gran cantidad de <code>información sobre el framework</code>. Además
+        está disponible en varios idiomas, y es fácil de navegar.
+      </p>
+    </div>
+  </li>
+  <hr class="border border-danger border-2 opacity-50">
+  <li class="d-flex">
+    <%= link_to "https://api.rubyonrails.org/", target: "_blank" do %>
+      <%= image_tag  "RoR.svg", size: "75x75", class: "me-2"%>
+    <%end%>
+    <div>
+      <%= link_to "Ruby on Rails api", "https://api.rubyonrails.org/", target: "_blank" %>
+      <p>
+        Esta es la documentación oficial de la <code>API de Ruby on Rails</code>. En este recurso encontrarás
+        todos los métodos y clases que puedes utilizar en tu proyecto. Además, puedes buscar por
+        palabras clave para encontrar la información que necesitas.
+      </p>
+    </div>
+  </li>
+  <hr class="border border-danger border-2 opacity-50">
+  <li class="d-flex">
+    <%= link_to "https://rubyapi.org/", target: "_blank" do %>
+      <%= image_tag  "ruby.svg", size: "75x75", class: "me-2"%>
+    <%end%>
+    <div>
+      <%= link_to "API Ruby", "https://rubyapi.org/", target: "_blank" %>
+      <p>
+        Esta es la documentación oficial de la <code>API de Ruby</code>. En este recurso encontrarás todos los
+        métodos y clases del lenguaje.Muy bien documentado, y fácil de navegar.
+      </p>
+    </div>
+  </li>
+  <hr class="border border-danger border-2 opacity-50">
+</ul>
+<h2>Recursos de terceros</h2>
+<ul class="lista_links_ROR mt-5 mb-5">
+  <li class="d-flex">
+    <%= link_to "http://www.railsstatuscodes.com/ ", target: "_blank" do %>
+      <%= image_tag  "http.svg", size: "75x75", class: "me-3"%>
+    <%end%>
+    <div>
+      <%= link_to "Rails HTTP codes", "http://www.railsstatuscodes.com/ ", target: "_blank" %>
+      <p>
+        Aquí puedes consultar los <code>status codes</code> de HTTP. Es muy útil para
+        saber qué significan los códigos que te devuelve el servidor. Además, incluye el nombre del helper correspondiente.
+      </p>
+    </div>
+  </li>
+  <hr class="border border-danger border-2 opacity-50">
+  <li class="d-flex">
+    <%= link_to "https://rubygems.org/", target: "_blank" do %>
+      <%= image_tag  "rubygems.svg", size: "75x75", class: "me-3"%>
+    <%end%>
+    <div>
+      <%= link_to "Ruby Gems", "https://rubygems.org/", target: "_blank" %>
+      <p>
+        RubyGems es el repositorio oficial de <code>gemas de Ruby</code>. En este sitio encontrarás
+        una gran cantidad de gemas que puedes utilizar en tus proyectos. Otro must.
+      </p>
+    </div>
+  </li>
+  <hr class="border border-danger border-2 opacity-50">
+  <li class="d-flex">
+    <%= link_to "https://rubocop.org/", target: "_blank" do %>
+      <%= image_tag  "rubocop.svg", size: "75x75", class: "me-3"%>
+    <%end%>
+    <div>
+      <%= link_to "RuboCop", "https://rubocop.org/", target: "_blank" %>
+      <p>
+        RuboCop es un <code>linter</code> para Ruby. Es decir, es una herramienta que te ayuda a
+        escribir código más limpio y legible. Además, te ayuda a seguir las mejores prácticas.
+      </p>
+    </div>
+  </li>
+  <hr class="border border-danger border-2 opacity-50">
+  <li class="d-flex">
+    <%= link_to "https://rubystyle.guide/", target: "_blank" do %>
+      <%= image_tag  "style_ruby.svg", size: "75x75", class: "me-3"%>
+    <%end%>
+    <div>
+      <%= link_to "Guías de estilos Ruby", "https://rubystyle.guide/", target: "_blank" %>
+      <p>
+        Esta es una <code>guía de estilo para Ruby</code>. En ella encontrarás las mejores prácticas para
+        escribir código limpio y legible. Además, te ayudará a seguir las convenciones de la comunidad.
+      </p>
+    </div>
+  </li>
+  <hr class="border border-danger border-2 opacity-50">
+  <li class="d-flex">
+    <%= link_to "https://toprubycompanies.info/ ", target: "_blank" do %>
+      <%= image_tag  "top_rb.png", size: "75x75", class: "me-3"%>
+    <%end%>
+    <div>
+      <%= link_to "Top Ruby Companies", "https://toprubycompanies.info/", target: "_blank" %>
+      <p>
+        Dicho por ellos mismos: "Descubra las principales <code>empresas de Ruby</code> en todo el mundo y vea el impacto del lenguaje de programación que se centra en la felicidad del desarrollador."      </p>
+    </div>
+  </li>
+  <hr class="border border-danger border-2 opacity-50">
+</ul>
+<h2>
+  Canales de Youtube
+</h2>
+<div class="row mt-5">
+  <div class="col-md-3">
+    <%= link_to "https://www.youtube.com/c/GorailsTV", target: "_blank" do %>
+      <div class="card mb-3 d-flex flex-column tarjeta_yt">
+        <div class="card_img mt-4 ms-4 me-4">
+          <%= image_tag "gorails.png" %>
+        </div>
+        <div class="p-3">
+          <h3>Gorails</h3>
+          <hr class="border border-danger border-2 opacity-50">
+          En este canal encontrarás <code>tutoriales</code>, <code>tips</code> <code>guías</code>, y mucho más.
+          Su creador, Chris Oliver, es un desarrollador de Ruby on Rails con más de 10 años de experiencia.
+        </div>
+      </div>
+    <% end %>
+  </div>
+  <div class="col-md-3">
+    <%= link_to "https://www.youtube.com/@Webcrunch", target: "_blank" do %>
+      <div class="card mb-3 d-flex flex-column tarjeta_yt">
+        <div class="card_img mt-4 ms-4 me-4">
+          <svg viewBox="0 0 1907 1265" class="fill-current w-24 h-24 text-white pt-5" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M880.796 255.871H1026.21L953.5 380.738L880.796 255.871ZM81.0551 0H0L32.4515 55.7311L43.9544 75.4762L151.892 260.851L736.588 1265L953.5 892.471L1170.42 1265L1864.3 73.3448L1874.55 55.7416L1907 0.00668777H1825.95L1740.57 146.628L1667.21 272.625L1477.93 597.702L1170.42 1125.81L994.026 822.881L1061.97 706.204L1126.47 816.973L1170.42 892.458L1690.07 0.00668777H216.934L736.595 892.462L780.546 816.973L822.255 745.335L834.769 723.846L836.568 720.757L881.008 644.441L954.254 518.635L954.258 518.643L1103.83 261.765L1147.78 186.281H759.227L912.986 450.332L845.043 567.01L777.201 450.5L777.213 450.476L762.691 425.54L762.672 425.548L716.332 345.924L623.357 186.281H542.307L804.518 636.607L736.591 753.261L677.281 651.399L338.507 69.6034L716.987 69.6073L736.591 69.6034H1568.5L1229.73 651.395L1170.42 753.264L1102.49 636.607L1364.7 186.281H1283.66L736.591 1125.81L429.081 597.706L239.799 272.629L81.058 0.00668777L81.0551 0Z" fill="white"></path>
+          </svg>
+        </div>
+        <div class="p-3">
+          <h3>WebCrunch</h3>
+          <hr class="border border-danger border-2 opacity-50">
+          Web-Crunch es una web para el desarrollador, diseñador, empresario y creador web que aspira a resolver muchos de sus problemas con <code>diseño + código</code>
+        </div>
+      </div>
+    <% end %>
+  </div>
+  <div class="col-md-3">
+    <%= link_to "https://www.youtube.com/@SupeRails", target: "_blank" do %>
+      <div class="card mb-3 d-flex flex-column tarjeta_yt">
+        <div class="card_img mt-4 ms-4 me-4">
+          <%= image_tag "superrails.jpg" %>
+        </div>
+        <div class="p-3">
+          <h3>SupeRails by Yaroslav Shmarov</h3>
+          <hr class="border border-danger border-2 opacity-50">
+          Características RoR, Tutoriales, Gemas, Stripe API, Serie Code-Along, Consejos y trucos, Algo de HTML y CSS. Sinceramente... <code>Un crack</code>.
+        </div>
+      </div>
+    <% end %>
+  </div>
+  <div class="col-md-3">
+    <%= link_to "https://www.youtube.com/@typefastco", target: "_blank" do %>
+      <div class="card mb-3 d-flex flex-column tarjeta_yt">
+        <div class="card_img mt-4 ms-4 me-4">
+          <%= image_tag "typefast.png" %>
+        </div>
+        <div class="p-3">
+          <h3>TypeFast</h3>
+          <hr class="border border-danger border-2 opacity-50">
+          Proyectos completos, de la talla de <code>AirBnb clone</code>, <code>Trello clone</code> y demás... Muy Muy bueno. Además está comenzando a compartir ,tutoriales, tips y guías.
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>

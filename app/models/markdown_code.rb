@@ -1,0 +1,3 @@
+class MarkdownCode < ApplicationRecord
+
+end

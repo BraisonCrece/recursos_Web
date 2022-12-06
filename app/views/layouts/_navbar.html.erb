@@ -6,31 +6,35 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+            Secciones
           </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <li class="d-flex">
+              <%= link_to pages_ror_path, class: "dropdown-item" do %>
+                <%= image_tag "diamante.svg", size: "25x25" %>
+                Ruby on Rails
+              <% end %>
+            </li>
+            <li class="d-flex">
+              <%= link_to pages_html_css_path, class: "dropdown-item" do %>
+                <%= image_tag "html.svg", size: "25x25" %>
+                HTML
+              <% end %>
+            </li>
+            <li class="d-flex">
+              <%= link_to pages_html_css_path, class: "dropdown-item" do %>
+                <%= image_tag "css.svg", size: "25x25" %>
+                CSS
+              <% end %>
+            </li>
             <li><a class="dropdown-item" href="#">Another action</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
-        </li>
       </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
     </div>
   </div>
 </nav>

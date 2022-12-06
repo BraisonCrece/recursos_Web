@@ -1,0 +1,19 @@
+<h1>Pages#cheetsheets</h1>
+<p>Find me in app/views/pages/cheetsheets.html.erb</p>
+<section class="sheets_container">
+  <article class="php_sheet">
+    <h2>
+      PHP Cheatsheet
+    </h2>
+    <%= link_to download_md_path(name: "BraisonCrece_PHP_cheat_sheet.MD") do %>
+      <%= image_tag "php.svg" %>
+    <% end %>
+  </article>
+  <article class="css_sheet">
+    <h2>
+      CSS Cheatsheet
+    </h2>
+    <%= link_to download_md_path(name: "CSS_cheet-sheet.md") do %>
+      <%= image_tag "CSS.svg" %>
+    <% end %>
+  </section>

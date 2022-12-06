@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @markdown_code %>
+
+<div>
+  <%= link_to "Edit this markdown code", edit_markdown_code_path(@markdown_code) %> |
+  <%= link_to "Back to markdown codes", markdown_codes_path %>
+
+  <%= button_to "Destroy this markdown code", @markdown_code, method: :delete %>
+</div>
