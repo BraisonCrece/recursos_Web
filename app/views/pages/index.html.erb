@@ -1,0 +1,56 @@
+<article>
+  <h1>Bienvenido a Share's!</h1>
+  <p>En Share's podrás encontrar cientos de recursos gratuítos para aprender Desarrollo Web!</p>
+  <h2>Recursos</h2>
+  <!-- galería de tarjetas con las opciones -->
+  <div class="row">
+    <div class="col-md-4">
+      <%= link_to pages_cheatsheets_path do %>
+        <div class="card mb-3">
+          <div class="card_img">
+            <%= image_tag "cheat-sheet.png" %>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Cheat-Sheets</h5>
+            <p class="card-text">
+              Recopilación de cheat-sheets de diferentes lenguajes de programación. Ideal para tener a mano en el escritorio.
+              Opcion descargable en PDF y MarkDown.
+            </p>
+          </div>
+        </div>
+      <% end %>
+    </div>
+    <div class="col-md-4">
+      <%= link_to pages_cheatsheets_path do %>
+        <div class="card mb-3">
+          <div class="card_img">
+            <%= image_tag "html_css_2.svg" %>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">HTML & CSS</h5>
+            <p class="card-text">
+              Recopilación de recursos y tutoriales para aprender HTML y CSS. Desde lo más básico hasta lo más avanzado.
+              Con ejemplos prácticos y ejercicios.
+            </p>
+          </div>
+        </div>
+      <% end %>
+    </div>
+    <div class="col-md-4">
+      <%= link_to pages_cheatsheets_path do %>
+        <div class="card mb-3">
+          <div class="card_img">
+            <%= image_tag "JS.svg" %>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">JavaScript</h5>
+            <p class="card-text">
+              Recopilación de recursos y documentación para aprender JavaScript. 
+              Con ejemplos prácticos y ejercicios.
+            </p>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</article>

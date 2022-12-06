@@ -1,0 +1,73 @@
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons';
+
+
+body {
+  background-color: #212529;
+
+  h1,
+  h2 {
+    color: #fff;
+    font-family: 'Source Code Pro', monospace;
+  }
+
+  p {
+    color: #fff;
+    font-family: 'Source Code Pro', monospace;
+  }
+
+  label {
+    color: #fff;
+    font-family: 'Source Code Pro', monospace;
+  }
+
+  select {
+    width: 100%;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .card {
+
+    height: 36em;
+
+    p.card-text {
+      color: black;
+      font-family: 'Source Code Pro', monospace;
+      padding-top: .5em;
+    }
+
+    &:hover {
+      transform: scale(1.005);
+      box-shadow: 0 0 10px #fff;
+      transition: all 0.2s ease-in-out;
+    }
+
+    &:not(:hover) {
+      transition: all 0.1s ease;
+    }
+
+    .card-title {
+      color: black;
+      text-decoration: underline blue;
+      font-weight: bold;
+      font-family: 'Source Code Pro', monospace;
+    }
+
+    .card_img {
+      height: 60%;
+    }
+
+    .card-body {
+      height: 40%;
+      padding-top: 2em;
+    }
+
+    img {
+      width: 100%;
+    }
+
+  }
+}
