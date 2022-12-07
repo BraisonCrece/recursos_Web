@@ -29,9 +29,19 @@
                 CSS
               <% end %>
             </li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li class="d-flex">
+              <%= link_to pages_html_css_path, class: "dropdown-item" do %>
+                <%= image_tag "js.svg", size: "25x25" %>
+                JavaScript
+              <% end %>
+            </li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li class="d-flex">
+              <%= link_to pages_javascript_path, class: "dropdown-item" do %>
+                <%= image_tag "cheet.svg", size: "25x25" %>
+                Cheat-Sheets
+              <% end %>
+            </li>
           </ul>
         </li>
       </ul>

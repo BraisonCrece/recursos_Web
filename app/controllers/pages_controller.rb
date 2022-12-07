@@ -1,6 +1,5 @@
 class PagesController < ApplicationController
-  def cheatsheets
-    
+  def cheatsheets    
   end
 
   def html_css
@@ -10,6 +9,9 @@ class PagesController < ApplicationController
   end
 
   def ror
+  end
+
+  def javascript    
   end
 
   def download_md
