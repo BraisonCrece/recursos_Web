@@ -1,24 +1,22 @@
-# README
+# Share's by BraisonCrece
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Este proyecto va a ser super simple, pero a la vez quiero que sea super útil!
 
-Things you may want to cover:
+### Mi objetico es hacer una web bien estructurada donde alojar todos los recursos de aprendizaje Web que más me gusten, o que considere imperdibles
+Contendrá:
+- Documentación oficial de cada lenguaje
+- Documentación de terceros (la que aporte algo)
+- Links de interés para cada lenguaje / framework
+- Herramienta del desarrollador
+- Chuletas de referencia (Cheat-Sheets), hechas por mi, con las funciones más útiles de cada lenguaje. En pdf y em MarkDown
+- Canales de Youtube (los mejores según mi humilde criterio, dentro de los que conozco)
 
-* Ruby version
+Algunas capturas del proceso:
 
-* System dependencies
+![image](https://user-images.githubusercontent.com/104019638/206058865-97e6bfdb-ce4d-4b5d-a93c-545b582219be.png)
 
-* Configuration
+![image](https://user-images.githubusercontent.com/104019638/206059056-95462ebc-f794-4a07-b8a0-26b792aefb76.png)
 
-* Database creation
+![image](https://user-images.githubusercontent.com/104019638/206059121-375eb84f-a266-4303-a4b4-a54f44f24029.png)
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![image](https://user-images.githubusercontent.com/104019638/206059514-ea0bbae1-8df5-4ae1-be97-7bb79d7a85cc.png)
