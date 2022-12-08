@@ -32,7 +32,7 @@ body {
 
   .card {
 
-
+    min-height: fit-content;
     height: 36em;
 
     p.card-text {
@@ -42,7 +42,7 @@ body {
     }
 
     &:hover {
-      transform: scale(1.005);
+      transform: scale(1.1);
       box-shadow: 0 0 10px #fff;
       transition: all 0.2s ease-in-out;
     }
@@ -89,6 +89,10 @@ body {
     &:hover {
       cursor: pointer;
     }
+  }
+
+  .shares {
+    font-weight: 800;
   }
 
 }
