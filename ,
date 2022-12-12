@@ -1,0 +1,179 @@
+# RAILS & RUBY INTERVIEW QUESTIONS
+## Beginner Rails questions
+- ### **Explain what ORM means in Ruby on Rails.**
+​
+  ORM is ve abbreviation of **Object Relation Mapper**.
+  It means you don't have to manually call the database yourself; the ORM handles it for you. 
+  Ruby on Rails uses one called **ActiveRecord**, and it's a really good one.   
+  Instead of manually writing a SELECT statement with JOINs, WHEREs, etc.
+​
+- ### **Explain what “rake” means in Ruby on Rails.**
+​
+  Rake is a popular task runner for Ruby and Rails applications. For example, Rails provides the predefined Rake tasks for **creating databases**, **running migrations**, and **performing tests**. You can also create custom tasks to automate specific actions like run code analysis tools, backup databases, and so on.
+​
+  You can create more tasks that will be avaliable on your rails environment.
+  ```rb
+    desc "Print reminder about eating more fruit."
+    task :apple do
+      puts "Eat more apples!"
+    end
+  ```
+  You can put this code inside a file named **Rakefile**, or if you’re using Rails, you can save this under lib/tasks/apple.rake
+​
+- ### **Explain what Ruby on Rails is.**
+​
+  Ruby on Rails is a open source fullstack framework writen in Ruby, and following the MVC pattern.
+  One of its main features is the speed with which applications can be created and managed by a small group of developers, or even by a single developer. Perfect for startups!
+​
+- ### **What is meant by “Rails migration”?**
+​
+  A migration in rails refers to a change in the database structure, such as add a new column, change the data type of a column, renaming a table, and so forth.
+​
+  > *A Rails migration is a tool for changing an application's database schema. Instead of managing SQL scripts, you define database changes in a domain-specific language (DSL). The code is **database-independent, so you can easily move your app to a new platform**.*
+​
+- ### **What does the subdirectory app/controllers do?**
+  
+  Is where Rails looks to find the controller classes. A controller **handles a web request** from the user.
+​
+​
+​
+​
+​
+​
+​
+- In what ways is Ruby on Rails limited?
+​
+      https://www.netguru.com/blog/pros-cons-ruby-on-rails
+- Explain what load does in Ruby on Rails.
+- Explain what require does in Ruby on Rails.
+- What is a helper in Ruby on Rails?
+- How do you use helpers in Ruby on Rails?
+- Outline three components of Rails.
+- Explain what “scaffolding” is.
+- What are the advantages of scaffolding in Ruby on Rails?
+- What does MVC mean?
+- How does MVC work?
+- Explain which symbols developers use to define variables, global variables, and class variables.
+- What are the benefits of using Ruby on Rails?
+- What is a “gem” in Ruby on Rails?
+- What is a plugin in Ruby on Rails?
+- Explain the differences between gems and plugins in Ruby on Rails.
+- What does nil mean?
+- What does false mean?
+- Explain the differences between nil and false in Ruby on Rails.
+- Which skills do developers need to use Ruby on Rails?
+- Explain what delete does in Ruby on Rails.
+## --------------intermediate-----------------------
+- How do you use nested layouts?
+- What does garbage collection do in Ruby on Rails?
+- Describe what destructive methods are.
+- What is a filter in Ruby on Rails?
+- Explain what observers are in Ruby on Rails.
+- Explain what callbacks are in Ruby on Rails.
+- Explain what harnesses are.
+- What are fixtures in Ruby on Rails?
+- Explain what a symbol is in Ruby on Rails.
+- Explain what a string is in Ruby on Rails.
+- Explain what destroy does in Ruby on Rails.
+- Explain what a proc is.
+- What is a Gemfile in Ruby on Rails?
+- Explain what count does in Ruby on Rails.
+- Explain what length does in Ruby on Rails.
+- Explain what size does in Ruby on Rails.
+- What does “skinny controllers, skinny models” mean?
+- Describe some frameworks developers use for background jobs.
+- Explain what blocks are in Ruby on Rails.
+- Explain what Spring is.
+- Explain what initializers are in Ruby on Rails.
+## -----------------advanced --------------------------
+- Explain what ActiveJob is.
+- When should you use ActiveJob?
+- Explain what Strong Parameters are.
+- Explain what naming conventions are in Rails.
+- Does Ruby support multiple inheritance?
+- Does Ruby support single inheritance?
+- Give an example of a filter in Ruby on Rails.
+- Explain what dynamic finders are.
+- How would you use two databases for one application?
+- Explain what a Rails engine is.
+- Explain what an asset pipeline is.
+- Is Ruby a flexible language? Why, or why not?
+- What is Active Record in Ruby on Rails?
+- Explain whether instance methods are private or public.
+- How is Ruby on Rails similar to Python?
+- How is Ruby on Rails different from Python?
+- Outline the types of associations models can have in Ruby on Rails.
+- Explain how class variables are different from instance variables.
+- What is a closure in Ruby on Rails?
+- Explain the difference between #equal and #==.
+- Explain the difference between Array#each and Array#map.
+- Explain the difference between raise/rescue and throw/catch.
+- What is a Hash in Ruby on Rails?
+- What is JSON?
+- Explain what the splat operator is.
+													
+# RUBY
+1. What is Ruby programming language?
+2. Who is the developer of Ruby?
+3.  Why Ruby is known as a language of flexibility?
+4.  List some features of Ruby?
+5.  Explain some differences between Ruby and Python.
+6.  Write the command to get installed Ruby version in your system.
+7.  What are class libraries in Ruby?
+8.  Name some operators used in Ruby.
+9.  What is RubyGems in Ruby programming language?
+10. What are Ruby variables.
+11. What is the difference between nil and false in Ruby?
+12. Explain Ruby data types.
+13. What is the use of load and require in Ruby?
+14. Explain Ruby if-else statement.
+15. Explain case statement in Ruby.
+16. Explain for loop in Ruby.
+17. Explain while loop in Ruby.
+18. Explain do while loop in Ruby.
+19. Explain until loop in Ruby.
+20. Explain break statement in Ruby.
+21. Explain next statement in Ruby.
+23. Explain retry statement in Ruby.
+24. How will you comment in Ruby.
+25. Explain Ruby object.
+26. How to create Ruby object?
+27. Explain Ruby class.
+28. Define Ruby methods.
+29. How to use Ruby methods.
+30. What are Ruby blocks.
+31. In how many ways a block is written in Ruby.
+32. What is yield statement in Ruby.
+33. Explain ampersand parameter (&block) in Ruby.
+34. Explain Ruby module.
+35. Explain module mixins in Ruby.
+36. Explain Ruby strings.
+37. How to access Ruby strings elements in an application.
+38. How to write multiline string in Ruby.
+39. What is the use of global variable $ in Ruby?
+40. What is concatenating string in Ruby. In how many ways you can create a concatenating string.
+41. What are freezing string in Ruby.
+42. In how many ways you can compare Ruby string?
+43. What are class libraries in Ruby?
+44. What are Ruby arrays and how they can be created?
+45. How to access Ruby array elements? How many methods are used to access Ruby elements.?
+46. In how many ways items can be added in an array in Ruby?
+47. In how many ways items can be removed from array in Ruby?
+48. Explain Ruby hashes.
+49. How to create a new time instance in Ruby?
+50. Explain Ruby ranges. What are the ways to define ranges?
+51. What are Ruby iterators?
+52. How many iterators are there in Ruby?\
+53. Name different methods for IO console in Ruby?
+54. How to open a file in Ruby?
+55. How to read a file in Ruby?
+56. Explain class libraries in Ruby.
+57. What is sysread method in Ruby?
+58. How will you rename and delete a file in Ruby?
+59. How to check whether a directory exist or not in Ruby?
+60. Explain Ruby exceptions.
+61. What are some built-in Ruby class exceptions.
+62. How an exception is handled in Ruby?
+63. Explain the use of retry statement in Ruby?
+64. Explain raise statement in Ruby?
+65. Explain the use of ensure statement in Ruby?

@@ -10,5 +10,9 @@ const confeti = document.querySelector("#confeti")
 
 confeti.addEventListener("click", () => {
   const jsConfetti = new JSConfetti()
-  jsConfetti.addConfetti()
+  jsConfetti.addConfetti({
+    emojiSize: 50,
+    confettiNumber: 500,
+  })
 })
+

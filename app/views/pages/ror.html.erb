@@ -1,11 +1,3 @@
-<%# 
-  - Ruby on Rails guides: https://guides.rubyonrails.org/ 
-  - Ruby on Rails api: https://api.rubyonrails.org/
-  - API Ruby: https://rubyapi.org/
-  - Rail HTTP Status Codes: http://www.railsstatuscodes.com/ 
-
-%>
-<%# make one card with the info of each links %>
 <h2>Documentación Oficial</h2>
 <ul class="lista_links_ROR mt-5 mb-5">
   <li class="d-flex">
@@ -119,7 +111,7 @@
 <h2>
   Canales de Youtube
 </h2>
-<div class="row mt-5">
+<div class="row mt-5 mb-5">
   <div class="col-md-3">
     <%= link_to "https://www.youtube.com/c/GorailsTV", target: "_blank" do %>
       <div class="card mb-3 d-flex flex-column tarjeta_yt">
@@ -131,6 +123,20 @@
           <hr class="border border-danger border-1 opacity-50">
           En este canal encontrarás <code>tutoriales</code>, <code>tips</code> <code>guías</code>, y mucho más.
           Su creador, Chris Oliver, es un desarrollador de Ruby on Rails con más de 10 años de experiencia.
+        </div>
+      </div>
+    <% end %>
+  </div>
+  <div class="col-md-3">
+    <%= link_to "https://www.youtube.com/@codewithpete508", target: "_blank" do %>
+      <div class="card mb-3 d-flex flex-column tarjeta_yt">
+        <div class="card_img mt-4 ms-4 me-4">
+          <%= image_tag "pete.jpg" %>
+        </div>
+        <div class="p-3">
+          <h3>Code with Pete</h3>
+          <hr class="border border-danger border-1 opacity-50">
+          Screencasts para desarrolladores web principiantes e intermedios que utilizan <code>Ruby on Rails</code>, <code>Hotwire</code> y <code>React</code>. Pete es un maestro excelente.
         </div>
       </div>
     <% end %>
@@ -152,15 +158,57 @@
     <% end %>
   </div>
   <div class="col-md-3">
+    <%= link_to "https://www.youtube.com/@mixandgo", target: "_blank" do %>
+      <div class="card mb-3 d-flex flex-column tarjeta_yt">
+        <div class="card_img mt-4 ms-4 me-4">
+          <%= image_tag "m&g.png" %>
+        </div>
+        <div class="p-3">
+          <h3>Mix & Go</h3>
+          <hr class="border border-danger border-1 opacity-50">
+          Cezar Halmagean es un desarrolador Web <code>especializado en Ruby on Rails</code>. Cuenta con más de <code>15 años de experiencia</code>, y su contenido es de mucha calidad. 
+        </div>
+      </div>
+    <% end %>
+  </div>
+  <div class="col-md-3">
     <%= link_to "https://www.youtube.com/@SupeRails", target: "_blank" do %>
       <div class="card mb-3 d-flex flex-column tarjeta_yt">
         <div class="card_img mt-4 ms-4 me-4">
           <%= image_tag "superrails.jpg" %>
         </div>
         <div class="p-3">
-          <h3>SupeRails by Yaroslav Shmarov</h3>
+          <h3>SupeRails</h3>
           <hr class="border border-danger border-1 opacity-50">
           Características RoR, Tutoriales, Gemas, Stripe API, Serie Code-Along, Consejos y trucos, Algo de HTML y CSS. Sinceramente... <code>Un crack</code>.
+        </div>
+      </div>
+    <% end %>
+  </div>
+  <div class="col-md-3">
+    <%= link_to "https://www.youtube.com/@DriftingRuby", target: "_blank" do %>
+      <div class="card mb-3 d-flex flex-column tarjeta_yt">
+        <div class="card_img mt-4 ms-4 me-4">
+          <%= image_tag "drifting.png" %>
+        </div>
+        <div class="p-3">
+          <h3>Drifting Ruby</h3>
+          <hr class="border border-danger border-1 opacity-50">
+          Drifting Ruby es otro imperdible. Cada video, es una avalancha de información sobre Rails y sus característica, con un <code>tono muy pragmático</code>.
+        </div>
+      </div>
+    <% end %>
+  </div>
+  <div class="col-md-3">
+    <%= link_to "https://www.youtube.com/@cjav_dev", target: "_blank" do %>
+      <div class="card mb-3 d-flex flex-column tarjeta_yt">
+        <div class="card_img mt-4 ms-4 me-4">
+          <%= image_tag "cj.png" %>
+        </div>
+        <div class="p-3">
+          <h3>CJ Avilla</h3>
+          <hr class="border border-danger border-1 opacity-50">
+          Si quieres aprender a crear <code>aplicaciones web</code> e <code>integraciones de API</code>, este es tu canal. Además de Rails,comparte contenido de otros lenguajes.
         </div>
       </div>
     <% end %>

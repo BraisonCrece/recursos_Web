@@ -32,8 +32,9 @@ body {
 
   .card {
 
-    min-height: fit-content;
-    height: 36em;
+    min-height: 573px;
+    max-height: 575px;
+    height: 36rem;
 
     p.card-text {
       color: black;
@@ -45,10 +46,15 @@ body {
       transform: scale(1.1);
       box-shadow: 0 0 10px #fff;
       transition: all 0.2s ease-in-out;
+      z-index: 1;
+      border-radius: 10px;
     }
 
     &:not(:hover) {
       transition: all 0.1s ease;
+
+
+
     }
 
     .card-title {
@@ -59,16 +65,41 @@ body {
     }
 
     .card_img {
-      height: 60%;
+      height: 50%;
+      height: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .card-body {
-      height: 40%;
+      height: 30%;
       padding-top: 2em;
     }
 
     img {
-      width: 100%;
+      width: 85%;
+      height: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      transition: all .3s ease;
+
+      &:hover {
+        border-radius: 5px;
+      }
+    }
+
+
+
+  }
+
+  .lista_links_ROR li a {
+    color: #AD1038;
+    font-size: x-large;
+
+    &:hover {
+      color: #EA1E62;
     }
 
   }
@@ -93,6 +124,14 @@ body {
 
   .shares {
     font-weight: 800;
+  }
+
+}
+
+@media screen and (max-width: 391px) {
+
+  .card:hover {
+    transform: none;
   }
 
 }
